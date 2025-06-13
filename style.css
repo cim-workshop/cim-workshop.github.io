@@ -17,7 +17,10 @@
 	font-style: italic;
 }
 .tbl_rowEven{
-   background-color: #fadfdf;
+   background-color: #ffdddd;
+}
+.tbl_rowSingle{
+   background-color: #fff4f4;
 }
 .with-line {
   display: block;
