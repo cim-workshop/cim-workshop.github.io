@@ -26,6 +26,10 @@
     overflow: hidden;
 }*/
 
+#zoomLink{
+    color: white;
+}
+
 .blink_text {
     /*font-size: 6rem;*/
     font-weight: bold;
