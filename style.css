@@ -26,6 +26,58 @@
     overflow: hidden;
 }*/
 
+/*.gallery{
+  height: 90vh;
+}*/
+
+.gallery{
+  margin-left: auto;
+  margin-right: auto;  
+  margin-bottom: 5%;
+}
+
+
+.gallery_list img {
+  width: 32%;
+  cursor: pointer;
+
+}
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.lightbox.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90vh;
+}
+
+.lightbox .close {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: #000;
+  cursor: pointer;
+}
+
+
+
+
 #zoomLink{
     color: white;
 }
